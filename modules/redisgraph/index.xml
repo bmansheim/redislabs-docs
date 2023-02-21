@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RedisGraph on Redis Documentation Center</title><link>/modules/redisgraph/</link><description>Recent content in RedisGraph on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redisgraph/index.xml" rel="self" type="application/rss+xml"/><item><title>RedisGraph quick start</title><link>/modules/redisgraph/redisgraph-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisgraph/redisgraph-quickstart/</guid><description>Prerequisites For this quick start tutorial, you need:
+A Redis database with the RedisGraph module enabled. You can use either:
+A Redis Cloud database
+A Redis Enterprise Software database
+redis-cli command-line tool
+redis-py client library v4.1.0 or later
+RedisGraph with redis-cli To begin, connect to your database with redis-cli.
+Create a graph When you create a graph, you can define nodes and the relationships between them with this format:
+(:&amp;lt;node 1&amp;gt;)-[:&amp;lt;relationship&amp;gt;]-&amp;gt;(:&amp;lt;node 2&amp;gt;)</description></item><item><title>RedisGraph commands</title><link>/modules/redisgraph/commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisgraph/commands/</guid><description>The following table lists RedisGraph commands. See the command links for more information about each command&amp;rsquo;s syntax, arguments, and examples.
+Command Redis
+Enterprise Redis
+Cloud Description GRAPH.CONFIG GET ✅ Supported
+❌ Flexible &amp;amp; Annual
+❌ Free &amp;amp; Fixed Returns the current value of a RedisGraph configuration parameter. GRAPH.CONFIG SET ✅ Supported
+❌ Flexible &amp;amp; Annual
+❌ Free &amp;amp; Fixed Changes the value of a RedisGraph configuration parameter. GRAPH.DELETE ✅ Supported</description></item><item><title>RedisGraph configuration compatibility with Redis Enterprise</title><link>/modules/redisgraph/config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisgraph/config/</guid><description>Redis Enterprise Software lets you manually change any RedisGraph configuration setting with the GRAPH.CONFIG SET command.
+Redis Enterprise Cloud does not let you use GRAPH.CONFIG SET to configure RedisGraph. However, if you have a Flexible or Annual subscription, you can contact support to request a configuration change. You cannot change RedisGraph configuration for Free or Fixed subscriptions.
+Setting Redis
+Enterprise Redis
+Cloud Notes CACHE_SIZE ✅ Supported
+✅ Flexible &amp;amp; Annual</description></item></channel></rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Redis Enterprise Cloud on Redis Documentation Center</title><link>/rc/</link><description>Recent content in Redis Enterprise Cloud on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/rc/index.xml" rel="self" type="application/rss+xml"/><item><title>Redis Cloud quick start</title><link>/rc/rc-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/rc-quickstart/</guid><description>If you&amp;rsquo;re new to Redis Enterprise Cloud, this quick start helps you get up and running.
+You&amp;rsquo;ll learn how to:
+Create an account, a free subscription, and a database
+Connect to your database
+If you already have an account, see Create a Fixed subscription to create a Free 30MB subscription. Free plans are a tier of fixed plans; this provides an easy upgrade path when you need it.
+If you already have a subscription, see Manage subscriptions and Manage databases.</description></item><item><title>Billing &amp; payments</title><link>/rc/billing-and-payments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/billing-and-payments/</guid><description>The Billing &amp;amp; Payments screen:
+Shows recent transactions for your account Helps you manage your payment methods Applies coupon credits to your account The following tabs are available:
+The Billing History tab displays recent charges and payments. Each transaction includes the following details:
+Detail Description Date Date the transaction was recorded Description Description of the transaction Reference Reference number Amount Transaction amount Billing details may vary between regions.
+When you select a billing transaction, a Download icon appears to the right of the amount.</description></item></channel></rss>

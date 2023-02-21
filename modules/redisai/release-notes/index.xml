@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RedisAI release notes on Redis Documentation Center</title><link>/modules/redisai/release-notes/</link><description>Recent content in RedisAI release notes on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redisai/release-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>RedisAI 1.2 release notes</title><link>/modules/redisai/release-notes/redisai-1.2-release-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisai/release-notes/redisai-1.2-release-notes/</guid><description>Requirements RedisAI v1.2.7 requires:
+Minimum Redis compatibility version (database): 6.0.0 Minimum Redis Enterprise Software version (cluster): 6.2.2 1.2.7 (June 2022) This is a maintenance release for RedisAI 1.2.
+Update urgency: MODERATE.
+Headlines:
+This release improves overall stability and provides fixes for issues found after the previous release. Details:
+Minor enhancements:
+#918, #924 Add AI.CONFIG GET sub-command #914, #915, #917 Backends update - TF 2.8, PyTorch 1.11, ONNXRuntime 1.11 #904 Enable saving model/script run statistics when run by a low-level API (by using RedisGears integration in particular) and retrieving the statistics with the AI.</description></item><item><title>RedisAI 1.0 release notes</title><link>/modules/redisai/release-notes/redisai-1.0-release-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisai/release-notes/redisai-1.0-release-notes/</guid><description>Requirements RedisAI v1.0.2 requires:
+Minimum Redis compatibility version (database): 5.0.7 Minimum Redis Enterprise Software version (cluster): 5.4.11 v1.0.2 (October 2020) This is a maintenance release for version 1.0.
+Headlines:
+This release improves overall stability and provides fixes for issues found after the previous release.
+Details:
+Minor updates:
+#383 Enable AI.SCRIPTRUN inside AI.DAGRUN #395 Add support for variadic arguments to AI.SCRIPTRUN #400 Low level API additions for use in other modules (e.</description></item></channel></rss>

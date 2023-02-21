@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RedisTimeSeries release notes on Redis Documentation Center</title><link>/modules/redistimeseries/release-notes/</link><description>Recent content in RedisTimeSeries release notes on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redistimeseries/release-notes/index.xml" rel="self" type="application/rss+xml"/><item><title>RedisTimeSeries 1.8 release notes</title><link>/modules/redistimeseries/release-notes/redistimeseries-1.8-release-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/release-notes/redistimeseries-1.8-release-notes/</guid><description>Requirements RedisTimeSeries v1.8.5 requires:
+Minimum Redis compatibility version (database): 6.0.16 Minimum Redis Enterprise Software version (cluster): 6.2.8 v1.8.5 (January 2023) This is a maintenance release for RedisTimeSeries 1.8.
+Update urgency: HIGH: There is a critical bug that may affect a subset of users. Upgrade!
+Details:
+Bug fixes:
+#1388 Potential crash when upgrading from v1.6 to 1.8 if there are compactions with min or max aggregation (MOD-4695) v1.8.4 (December 2022) This is a maintenance release for RedisTimeSeries 1.</description></item><item><title>RedisTimeSeries 1.6 release notes</title><link>/modules/redistimeseries/release-notes/redistimeseries-1.6-release-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/release-notes/redistimeseries-1.6-release-notes/</guid><description>Requirements RedisTimeSeries v1.6.17 requires:
+Minimum Redis compatibility version (database): 6.0.16 Minimum Redis Enterprise Software version (cluster): 6.2.8 v1.6.17 (July 2022) This is a maintenance release for RedisTimeSeries 1.6.
+Update urgency: HIGH: There is a critical bug that may affect a subset of users. Upgrade!
+Details:
+Bug fixes:
+#1240 Compaction rules are not saved to RoF (Redis Enterprise) v1.6.16 (June 2022) This is a maintenance release for RedisTimeSeries 1.6.
+Update urgency: HIGH: There is a critical bug that may affect a subset of users.</description></item><item><title>RedisTimeSeries 1.4 release notes</title><link>/modules/redistimeseries/release-notes/redistimeseries-1.4-release-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/release-notes/redistimeseries-1.4-release-notes/</guid><description>Requirements RedisTimeSeries v1.4.14 requires:
+Minimum Redis compatibility version (database): 5.0.0 Minimum Redis Enterprise Software version (cluster): 6.0.12 v1.4.14 (February 2022) This is a maintenance release for RedisTimeSeries 1.4.
+Update urgency: MODERATE: Program an upgrade of the server, but it&amp;rsquo;s not urgent.
+Bug fixes:
+#891, #892 Fixed memory leak in parseCreateArgs when parsing error occurs (MOD-1958) v1.4.13 (November 2021) This is a maintenance release for RedisTimeSeries 1.4.
+Update urgency: MODERATE: Program an upgrade of the server, but it&amp;rsquo;s not urgent.</description></item><item><title>RedisTimeSeries 1.2 release rotes</title><link>/modules/redistimeseries/release-notes/redistimeseries-1.2-release-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/release-notes/redistimeseries-1.2-release-notes/</guid><description>Requirements RedisTimeSeries v1.2.7 requires:
+Minimum Redis compatibility version (database): 5.0.0 Minimum Redis Enterprise Software version (cluster): 6.0.12 v1.2.7 (June 2020) This is a maintenance release for version 1.2.
+Details:
+Bugfixes:
+#414 Crash when a query had an empty label (foo,) v1.2.6 (May 2020) This is a maintenance release for version 1.2.
+Details:
+Minor enhancements:
+#403 Support for multi-value filtering in TS.MGET and TS.MRANGE. Bugfixes:
+#378 Using snprintf to ensure the same precision of floating-point value replies.</description></item><item><title>RedisTimeSeries 1.0 release rotes</title><link>/modules/redistimeseries/release-notes/redistimeseries-1.0-release-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/release-notes/redistimeseries-1.0-release-notes/</guid><description>Requirements RedisTimeSeries v1.0.3 requires:
+Minimum Redis compatibility version (database): 5.0.0 Minimum Redis Enterprise Software version (cluster): 5.4.0 v1.0.3 (September 2019) Update urgency: Medium
+This is a maintenance release for version 1.0.
+This release improves overall stability and provides fixes for issues found after the previous release.
+Main features:
+#143 Standard Deviation for Aggregations #163 TS.RANGE and TS.MRANGE can limit results via optional COUNT flag #161 Support for ARM architectures #160 Optional TIMESTAMP in TS.</description></item></channel></rss>

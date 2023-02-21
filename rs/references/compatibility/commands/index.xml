@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compatibility with open source Redis commands on Redis Documentation Center</title><link>/rs/references/compatibility/commands/</link><description>Recent content in Compatibility with open source Redis commands on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/rs/references/compatibility/commands/index.xml" rel="self" type="application/rss+xml"/><item><title>Cluster management commands compatibility</title><link>/rs/references/compatibility/commands/cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/cluster/</guid><description>Clustering in Redis Enterprise Software and Redis Enterprise Cloud differs from the open source Redis cluster and works with all standard Redis clients.
+Redis Enterprise blocks most cluster commands. If you try to use a blocked cluster command, it returns an error.
+Command Redis
+Enterprise Redis
+Cloud Notes ASKING ❌ Standard
+❌ Active-Active ❌ Standard
+❌ Active-Active CLUSTER ADDSLOTS ❌ Standard
+❌ Active-Active ❌ Standard
+❌ Active-Active CLUSTER BUMPEPOCH ❌ Standard</description></item><item><title>Connection management commands compatibility</title><link>/rs/references/compatibility/commands/connection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/connection/</guid><description>The following tables show which open source Redis connection management commands are compatible with standard and Active-Active databases in Redis Enterprise Software and Redis Enterprise Cloud.
+Command Redis
+Enterprise Redis
+Cloud Notes AUTH ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active CLIENT CACHING ❌ Standard
+❌ Active-Active ❌ Standard
+❌ Active-Active CLIENT GETNAME ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active CLIENT GETREDIR ❌ Standard
+❌ Active-Active ❌ Standard
+❌ Active-Active CLIENT ID ✅ Standard</description></item><item><title>Data type commands compatibility</title><link>/rs/references/compatibility/commands/data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/data-types/</guid><description>The following tables show which open source Redis data type commands are compatible with standard and Active-Active databases in Redis Enterprise Software and Redis Enterprise Cloud.
+Bitmap commands Command Redis
+Enterprise Redis
+Cloud Notes BITCOUNT ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active BITFIELD ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active BITFIELD_RO ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active BITOP ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active BITPOS ✅ Standard</description></item><item><title>Key commands compatibility</title><link>/rs/references/compatibility/commands/generic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/generic/</guid><description>The following table shows which open source Redis key (generic) commands are compatible with standard and Active-Active databases in Redis Enterprise Software and Redis Enterprise Cloud.
+Command Redis
+Enterprise Redis
+Cloud Notes COPY ✅ Standard
+✅ Active-Active* ✅ Standard
+✅ Active-Active* *Not supported for stream consumer group info. DEL ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active DUMP ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active EXISTS ✅ Standard
+✅ Active-Active ✅ Standard</description></item><item><title>Pub/sub commands compatibility</title><link>/rs/references/compatibility/commands/pub-sub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/pub-sub/</guid><description>The following table shows which open source Redis pub/sub commands are compatible with standard and Active-Active databases in Redis Enterprise Software and Redis Enterprise Cloud.
+Command Redis
+Enterprise Redis
+Cloud Notes PSUBSCRIBE ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active PUBLISH ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active PUBSUB CHANNELS ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active PUBSUB NUMPAT ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active PUBSUB NUMSUB ✅ Standard</description></item><item><title>Scripting commands compatibility</title><link>/rs/references/compatibility/commands/scripting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/scripting/</guid><description>The following table shows which open source Redis scripting commands are compatible with standard and Active-Active databases in Redis Enterprise Software and Redis Enterprise Cloud.
+Scripting commands Command Redis
+Enterprise Redis
+Cloud Notes EVAL ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active EVALSHA ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active SCRIPT DEBUG ❌ Standard
+❌ Active-Active ❌ Standard
+❌ Active-Active SCRIPT EXISTS ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active SCRIPT FLUSH ✅ Standard</description></item><item><title>Server management commands compatibility</title><link>/rs/references/compatibility/commands/server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/server/</guid><description>The following tables show which open source Redis server management commands are compatible with standard and Active-Active databases in Redis Enterprise Software and Redis Enterprise Cloud.
+Access control commands Several access control list (ACL) commands are not available in Redis Enterprise. Instead, you can manage access controls from the admin consoles for Redis Enterprise Software and Redis Cloud.
+Command Redis
+Enterprise Redis
+Cloud Notes ACL CAT ✅ Standard
+✅ Active-Active ✅ Standard</description></item><item><title>Transaction commands compatibility</title><link>/rs/references/compatibility/commands/transactions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/compatibility/commands/transactions/</guid><description>The following table shows which open source Redis transaction commands are compatible with standard and Active-Active databases in Redis Enterprise Software and Redis Enterprise Cloud.
+Command Redis
+Enterprise Redis
+Cloud Notes DISCARD ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active EXEC ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active MULTI ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active UNWATCH ✅ Standard
+✅ Active-Active ✅ Standard
+✅ Active-Active WATCH ✅ Standard</description></item></channel></rss>

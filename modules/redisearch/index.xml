@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RediSearch on Redis Documentation Center</title><link>/modules/redisearch/</link><description>Recent content in RediSearch on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redisearch/index.xml" rel="self" type="application/rss+xml"/><item><title>RediSearch quick start</title><link>/modules/redisearch/redisearch-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisearch/redisearch-quickstart/</guid><description>This quick start shows you how to index documents stored as Redis hashes and run search queries against the index. To learn how to index and search JSON documents, see the Search JSON quick start.
+Prerequisites For this tutorial, you need:
+A Redis database with the RediSearch module enabled. You can use either:
+A Redis Cloud database
+A Redis Enterprise Software database
+redis-cli command-line tool
+redis-py client library v4.0.0 or later</description></item><item><title>Search JSON quick start</title><link>/modules/redisearch/search-json-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisearch/search-json-quickstart/</guid><description>This quick start shows you how to index JSON documents and run search queries against the index.
+Prerequisites For this quick start tutorial, you need:
+Either:
+A Redis Cloud database with Redis Stack
+A Redis Enterprise Software database with RediSearch (v2.2 or later) and RedisJSON (v2.0 or later)
+And:
+redis-cli command-line tool
+redis-py client library v4.0.0 or later
+Search JSON with redis-cli To begin, connect to your database with redis-cli.</description></item><item><title>RediSearch commands</title><link>/modules/redisearch/commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisearch/commands/</guid><description>The following table lists RediSearch commands. See the command links for more information about each command&amp;rsquo;s syntax, arguments, and examples.
+Command Redis
+Enterprise Redis
+Cloud Description FT.AGGREGATE ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Runs a search query on an index and groups, sorts, transforms, limits, and/or filters the results. FT.ALIASADD ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Adds an alias to an index. FT.</description></item><item><title>RediSearch configuration compatibility with Redis Enterprise</title><link>/modules/redisearch/config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisearch/config/</guid><description>You cannot use FT.CONFIG SET to configure RediSearch in Redis Enterprise Software or Redis Enterprise Cloud. Instead, use one of the following methods.
+For Redis Cloud:
+Flexible or Annual subscriptions: contact support to request a configuration change.
+Free or Fixed subscriptions: you cannot change RediSearch configuration.
+For Redis Enterprise Software, use either:
+rladmin tune db:
+$ rladmin tune db db:&amp;lt;ID|name&amp;gt; module_name search \ module_config_params &amp;#34;setting-name setting-value&amp;#34; Configure module REST API request:</description></item><item><title>RediSearch in Active-Active databases</title><link>/modules/redisearch/redisearch-active-active/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisearch/redisearch-active-active/</guid><description>Starting with RediSearch 2.x, supported in Redis Enterprise Software (RS) 6.0 and later, you can add the RediSearch module to an Active-Active database at the time of creation.
+You can run search operations on any instance of an Active-Active database.
+How it works Create an Active-Active database with RediSearch 2.x enabled. Create the index on each instance of the database. If you are using synonyms, you need to add them to each replica.</description></item><item><title>Upgrade a database to RediSearch 2.x</title><link>/modules/redisearch/redisearch-2-upgrade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisearch/redisearch-2-upgrade/</guid><description>RediSearch 2.x includes some significant architectural changes that improve functionality. The main change is that RediSearch 2.x stores indexes outside of the Redis database that contains the data. This makes commands more efficient and improves replication between clusters because the index changes are managed by the participating clusters rather than being synchronized with the data.
+This change allows databases with RediSearch to support:
+Active-Active databases Database cluster re-sharding Replica Of to a sharded destination database EXPIRE of documents reflected in the index In addition, RediSearch 2.</description></item></channel></rss>

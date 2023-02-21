@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RedisGears on Redis Documentation Center</title><link>/modules/redisgears/</link><description>Recent content in RedisGears on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redisgears/index.xml" rel="self" type="application/rss+xml"/><item><title>Install RedisGears</title><link>/modules/redisgears/installing-redisgears/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisgears/installing-redisgears/</guid><description>Before you can use RedisGears, you have to install the RedisGears module on your Redis Enterprise cluster.
+Minimum requirements Redis Enterprise 6.0.12 or later The cluster is setup and all of the nodes are joined to the cluster Install RedisGears If your cluster uses Redis Enterprise v6.0.12 or later and has internet access, you only need to download the RedisGears package. It automatically fetches dependencies like the Python and JVM plugins during online installation.</description></item><item><title>Register events</title><link>/modules/redisgears/register-events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisgears/register-events/</guid><description>You can register RedisGears functions to run when certain events occur in a Redis database.
+Register on events To register RedisGears functions to run on an event, your code needs to:
+Pass KeysReader to a GearsBuilder object.
+Call the GearsBuilder.register() function.
+Pass the eventTypes parameter to either:
+The register function for Python.
+The KeysReader object for Java.
+For more information and examples of event registration, see:
+Python references:
+KeysReader
+GearsBuilder.register()</description></item></channel></rss>

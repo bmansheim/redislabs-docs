@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RedisBloom on Redis Documentation Center</title><link>/modules/redisbloom/</link><description>Recent content in RedisBloom on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redisbloom/index.xml" rel="self" type="application/rss+xml"/><item><title>RedisBloom quick start</title><link>/modules/redisbloom/redisbloom-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisbloom/redisbloom-quickstart/</guid><description>For this quick start tutorial, you need:
+Either: A Redis Cloud database with the RedisBloom module
+You can set up a free Redis Cloud database to see the module in action.
+A Redis Enterprise Software database with the RedisBloom module
+redis-cli with connectivity to a Redis database Trying it out You can play with it a bit using redis-cli:
+Connect to redis.
+$ redis-cli -p 12543 127.0.0.1:12543&amp;gt; Run these commands:</description></item><item><title>RedisBloom commands</title><link>/modules/redisbloom/commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisbloom/commands/</guid><description>The following tables list RedisBloom commands. See the command links for more information about each command&amp;rsquo;s syntax, arguments, and examples.
+Bloom filter commands Command Redis
+Enterprise Redis
+Cloud Description BF.ADD ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Adds an item to the filter. BF.EXISTS ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Checks if an item exists in the filter. BF.INFO ✅ Supported
+✅ Flexible &amp;amp; Annual</description></item><item><title>RedisBloom configuration compatibility with Redis Enterprise</title><link>/modules/redisbloom/config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisbloom/config/</guid><description>Redis Enterprise Software lets you manually change any RedisBloom configuration setting.
+Redis Enterprise Cloud does not let you configure RedisBloom manually. However, if you have a Flexible or Annual subscription, you can contact support to request a configuration change. You cannot change RedisBloom configuration for Free or Fixed subscriptions.
+Setting Redis
+Enterprise Redis
+Cloud Notes CF_MAX_EXPANSIONS ✅ Supported
+✅ Flexible &amp;amp; Annual
+❌ Free &amp;amp; Fixed Default: 32 ERROR_RATE ✅ Supported</description></item></channel></rss>

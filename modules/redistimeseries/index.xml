@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RedisTimeSeries on Redis Documentation Center</title><link>/modules/redistimeseries/</link><description>Recent content in RedisTimeSeries on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redistimeseries/index.xml" rel="self" type="application/rss+xml"/><item><title>RedisTimeSeries quick start</title><link>/modules/redistimeseries/redistimeseries-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/redistimeseries-quickstart/</guid><description>Prerequisites For this quick start tutorial, you need:
+A Redis database with the RedisTimeSeries module enabled. You can use either:
+A Redis Cloud database
+A Redis Enterprise Software database
+redis-cli command-line tool
+redis-py client library v4.0.0 or later
+RedisTimeSeries with redis-cli The following examples show you how to create a time series that represents weather measurements.
+To begin, connect to your database with redis-cli.
+Create a time series Use TS.CREATE to create a new time series.</description></item><item><title>RedisTimeSeries commands</title><link>/modules/redistimeseries/commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/commands/</guid><description>The following table lists RedisTimeSeries commands. See the command links for more information about each command&amp;rsquo;s syntax, arguments, and examples.
+Command Redis
+Enterprise Redis
+Cloud Description TS.ADD ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Appends a sample to a time series. TS.ALTER ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Updates the retention, chunk size, duplicate policy, or labels for an existing time series. TS.CREATE ✅ Supported</description></item><item><title>RedisTimeSeries configuration compatibility with Redis Enterprise</title><link>/modules/redistimeseries/config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redistimeseries/config/</guid><description>Redis Enterprise Software lets you manually change any RedisTimeSeries configuration setting.
+Redis Enterprise Cloud does not let you configure RedisTimeSeries manually. However, if you have a Flexible or Annual subscription, you can contact support to request a configuration change. You cannot change RedisTimeSeries configuration for Free or Fixed subscriptions.
+Setting Redis
+Enterprise Redis
+Cloud Notes CHUNK_SIZE_BYTES ✅ Supported
+✅ Flexible &amp;amp; Annual
+❌ Free &amp;amp; Fixed Default: 4096 COMPACTION_POLICY ✅ Supported</description></item></channel></rss>

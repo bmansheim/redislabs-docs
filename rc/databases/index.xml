@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manage databases on Redis Documentation Center</title><link>/rc/databases/</link><description>Recent content in Manage databases on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/rc/databases/index.xml" rel="self" type="application/rss+xml"/><item><title>Active-Active Redis</title><link>/rc/databases/active-active-redis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/active-active-redis/</guid><description>Active-Active databases store data across multiple regions and availability zones. This improves scalability, performance, and availability, especially when compared to standalone databases. To create Active-Active databases, you need a Flexible (or Annual) Redis Enterprise Cloud subscription that enables Active-Active Redis and defines the regions for each copy of your databases. This is defined when you create a new subscription.
+Active-Active databases are distributed across multiple regions (geo-distribution). This improves performance by reducing latency for nearby users and improves availability by protecting against data loss in case of network or resource failure.</description></item><item><title>Create a database</title><link>/rc/databases/create-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/create-database/</guid><description>To create a database in your Redis Enterprise Cloud subscription:
+Sign in to the Redis Cloud admin portal. (Create an account if you don&amp;rsquo;t already have one.)
+If you have more than one subscription, select the target subscription from the list. This displays the Databases tab for the selected subscription.
+Select the New database button.
+This displays the New database screen, which varies according to your subscription plan.
+The New database screen is divided into sections, each dedicated to a specific category of settings.</description></item><item><title>View and edit databases</title><link>/rc/databases/view-edit-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/view-edit-database/</guid><description>Use the Databases menu of the admin console to manage your subscription databases.
+To view the details of a database:
+Sign in to the Redis Cloud admin console. (Create an account if you don&amp;rsquo;t already have one.)
+Locate the database in the list.
+Select the database name to open the Database page.
+The Database screen lets you review:
+Configuration details of a database Graphs showing performance metrics Recent activity via a &amp;ldquo;slowlog,&amp;rdquo; which lists queries that exceed a certain execution time.</description></item><item><title>Delete database</title><link>/rc/databases/delete-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/delete-database/</guid><description>To delete a database, use the Delete button. It&amp;rsquo;s located in the Danger zone section of the database&amp;rsquo;s Configuration tab.
+Databases must be empty before they can be deleted. Deleted databases cannot be recovered. (We recommend making a backup, just in case.)
+This command requires the account owner role.
+Step-by-step Sign in to the Redis Cloud admin portal.
+If you have more than one subscription, select the target subscription from the list.</description></item><item><title>Back up a database</title><link>/rc/databases/back-up-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/back-up-data/</guid><description>The backup options for Redis Enterprise Cloud databases depend on your plan:
+Flexible and Annual subscriptions can perform backups on-demand and schedule daily backups that occur during a set hour.
+Paid Fixed plans can perform backups on-demand and schedule backups that occur every 24 hours.
+Free plans cannot perform backups through the Redis Cloud console.
+Backups are saved to predefined storage locations available to your subscription.
+Backup locations need to be available before you turn on database backups.</description></item><item><title>Flush data</title><link>/rc/databases/flush-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/flush-data/</guid><description>The FLUSHALL command provides a fast way to remove all data from a database.
+To use it, connect your database and then issue the command.
+There are several ways to do this, depending on your circumstances and environment.
+Note: When you flush a database, you remove all data. This is a prerequisite to deleting a database.
+This permanently removes all data from the database. The data cannot be recovered, except by restoring from earlier backups.</description></item><item><title>Import data into a database</title><link>/rc/databases/import-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/import-data/</guid><description>You can import an existing dataset into your Redis Cloud instance from an existing Redis server or an RDB file.
+Note: Expired keys are not imported. As a result, the number of keys in the source and destination databases can be different after the import is complete. Import from a Redis server To import a dataset from any publicly available Redis server:
+Select Databases from the admin console menu and then select the target database from the database list.</description></item><item><title>Migrate data to new subscription</title><link>/rc/databases/migrate-databases/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/migrate-databases/</guid><description>There are times when you need to migrate data from one database to another.
+Here are two common ways to do this.
+Each approach is suitable for different situations and the steps can vary according to your needs.
+Transfer via import The most common way to transfer data to a new database is to import a copy of the data into it.
+Here&amp;rsquo;s how it works:
+Select an export storage destination and verify that it&amp;rsquo;s ready for use and has sufficient space.</description></item><item><title>Monitor database performance</title><link>/rc/databases/monitor-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/monitor-performance/</guid><description>Redis Enterprise Cloud provides a variety of metrics to help you monitor database performance. You can view graphs of performance data at any time and receive emails when performance crosses defined threshholds.
+View database metrics The Metrics tab of the View Database screen provides a series of graphs showing performance data for your database.
+Performance data provides insight into how your database is being used and how well it is performing.</description></item><item><title>System logs</title><link>/rc/databases/system-logs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/system-logs/</guid><description>The Logs page contains events, alerts, and logs from the activities, databases, and subscriptions associated with your account.
+You can:
+Sort the list by a specific field in descending or ascending order. Supported fields include Time, Originator, Database name, and Activity.
+Select the arrow icon to change the sort order. You can only sort by one field at a time.
+Use the Export all button to export all logs as a comma-separated values (CSV) file for use in other systems and programs.</description></item><item><title>Usage reports</title><link>/rc/databases/usage-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/databases/usage-reports/</guid><description>The Usage Report shows the daily memory usage and shard usage of all databases from the subscriptions associated with your account.
+To filter the data, you can:
+Select a month and year from the View Statement For list to view the daily memory usage during a specific month. Select a subscription from the Subscription list to view the daily memory usage of a specific subscription associated with your account. Select a database from the Database list to view the daily memory usage of a specific database.</description></item></channel></rss>

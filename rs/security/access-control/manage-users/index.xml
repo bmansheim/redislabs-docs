@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manage users on Redis Documentation Center</title><link>/rs/security/access-control/manage-users/</link><description>Recent content in Manage users on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/rs/security/access-control/manage-users/index.xml" rel="self" type="application/rss+xml"/><item><title>Add users</title><link>/rs/security/access-control/manage-users/add-users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/manage-users/add-users/</guid><description>To add a user to the cluster:
+From the access control tab in the admin console, select .
+Enter the name, email, and password of the new user and select a role to assign to the user.
+Select internal for Authentication.
+For Email Alerts, select Edit and then choose the alerts that the user should receive. You can select:
+Receive alerts for databases - The alerts that are enabled for the selected databases will be sent to the user.</description></item><item><title>Manage passwords</title><link>/rs/security/access-control/manage-users/manage-passwords/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/manage-users/manage-passwords/</guid><description>Redis Enterprise Software provides several ways to manage the passwords of local accounts, including:
+Password complexity rules
+Password expiration
+Password rotation policies
+You can also manage a user&amp;rsquo;s ability to sign in and control session timeout.
+To enforce more advanced password policies, we recommend using LDAP integration with an external identity provider, such as Active Directory.
+Password complexity rules Redis Enterprise Software provides optional password complexity rules that meet common requirements.</description></item><item><title>Manage user login</title><link>/rs/security/access-control/manage-users/login-lockout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/manage-users/login-lockout/</guid><description>Redis Enterprise Software secures user access in a few different ways, including automatically:
+Locking user accounts after a series of authentication failures (invalid passwords)
+Signing sessions out after a period of inactivity
+Here, you learn how to configure the relevant settings.
+User login lockout The parameters for the user login lockout are:
+Login Lockout Threshold - The number of failed login attempts allowed before the user account is locked. (Default: 5 minutes) Login Lockout Counter Reset - The amount of time during which failed login attempts are counted.</description></item><item><title>Deactivate default user</title><link>/rs/security/access-control/manage-users/default-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/manage-users/default-user/</guid><description>When you provision a database, the default user will be enabled. This allows for backwards compatibility with versions of Redis before Redis 6.
+To deactivate the default user:
+Select the configuration tab. Clear the checkbox for Default database access. Select Save. Note: We recommend that you deactivate the default user when using ACLs with your database and backwards compatibility is not required.</description></item></channel></rss>

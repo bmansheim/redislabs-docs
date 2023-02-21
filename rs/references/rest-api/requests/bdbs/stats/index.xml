@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database stats requests on Redis Documentation Center</title><link>/rs/references/rest-api/requests/bdbs/stats/</link><description>Recent content in Database stats requests on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/rs/references/rest-api/requests/bdbs/stats/index.xml" rel="self" type="application/rss+xml"/><item><title>Latest database stats requests</title><link>/rs/references/rest-api/requests/bdbs/stats/last/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/references/rest-api/requests/bdbs/stats/last/</guid><description>Method Path Description GET /v1/bdbs/stats/last Get most recent stats for all databases GET /v1/bdbs/{uid} Get most recent stats for a specific database Get latest stats for all databases GET /v1/bdbs/stats/last Get the most recent statistics for all databases.
+Required permissions Permission name Roles view_all_bdb_stats admin
+cluster_member
+cluster_viewer
+db_member
+db_viewer Request Example HTTP request Without metrics filter (returns all metrics by default)
+GET /bdbs/stats/last With metrics filter
+GET /bdbs/stats/last?metrics=no_of_keys,used_memory Request headers Key Value Description Host cnm.</description></item></channel></rss>

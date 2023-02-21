@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RedisJSON on Redis Documentation Center</title><link>/modules/redisjson/</link><description>Recent content in RedisJSON on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/modules/redisjson/index.xml" rel="self" type="application/rss+xml"/><item><title>RedisJSON quick start</title><link>/modules/redisjson/redisjson-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisjson/redisjson-quickstart/</guid><description>Prerequisites For this quick start tutorial, you need:
+A Redis database with the RedisJSON module enabled. You can use either:
+A Redis Cloud database
+A Redis Enterprise Software database
+redis-cli command-line tool
+redis-py client library v4.0.0 or greater
+RedisJSON with redis-cli The redis-cli command-line tool comes packaged with Redis. You can use it to connect to your Redis database and test RedisJSON commands.
+Connect to a database $ redis-cli --raw -h &amp;lt;endpoint&amp;gt; -p &amp;lt;port&amp;gt; -a &amp;lt;password&amp;gt; 127.</description></item><item><title>RedisJSON commands</title><link>/modules/redisjson/commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisjson/commands/</guid><description>The following table lists RedisJSON commands. See the command links for more information about each command&amp;rsquo;s syntax, arguments, and examples.
+Command Redis
+Enterprise Redis
+Cloud Description JSON.ARRAPPEND ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Appends an element to a JSON array. JSON.ARRINDEX ✅ Supported
+✅ Flexible &amp;amp; Annual
+✅ Free &amp;amp; Fixed Returns the index of a value&amp;rsquo;s first occurrence in a JSON array. JSON.ARRINSERT ✅ Supported</description></item><item><title>RedisJSON in Active-Active databases</title><link>/modules/redisjson/active-active/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/modules/redisjson/active-active/</guid><description>RedisJSON v2.2 adds support for RedisJSON in Active-Active Redis Enterprise databases.
+The design is based on A Conflict-Free Replicated JSON Datatype by Kleppmann and Beresford, but the implementation includes some changes. Several conflict resolution rule examples were adapted from this paper as well.
+Command differences Some RedisJSON commands work differently for Active-Active databases.
+JSON.CLEAR JSON.CLEAR resets JSON arrays and objects. It supports concurrent updates to JSON documents from different instances in an Active-Active database and allows the results to be merged.</description></item></channel></rss>

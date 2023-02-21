@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manage subscriptions on Redis Documentation Center</title><link>/rc/subscriptions/</link><description>Recent content in Manage subscriptions on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/rc/subscriptions/index.xml" rel="self" type="application/rss+xml"/><item><title>Create a Fixed subscription</title><link>/rc/subscriptions/create-fixed-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/subscriptions/create-fixed-subscription/</guid><description>Fixed Size subscription plans support low throughput workflows. Several tiers are available, each designed for different memory sizes and integration requirements.
+When creating your subscription, you&amp;rsquo;ll need to know which tier to choose.
+(If you&amp;rsquo;re new to Redis Enterprise Cloud, the quick start helps you create an account with a free subscription and an initial database. You also learn how to connect to your database.)
+Fixed plan subscription tiers Fixed plan pricing scales according to the memory size of all databases defined in the subscription.</description></item><item><title>Create a Flexible subscription</title><link>/rc/subscriptions/create-flexible-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/subscriptions/create-flexible-subscription/</guid><description>Flexible subscriptions support any dataset size or throughput. Pricing is based on your workload requirements (database size and throughput.)
+When you create a Flexible subscription, a cost estimate is provided to help you understand the impact of your requirements.
+Create a Flexible subscription To create a Flexible subscription:
+From the admin console menu, select the New Subscription button.
+When the New subscription page appears, select Flexible plans and then scroll to the cloud vendor options.</description></item><item><title>Create an Active-Active subscription</title><link>/rc/subscriptions/create-active-active-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/subscriptions/create-active-active-subscription/</guid><description>To deploy Active-Active databases in Redis Enterprise Cloud, you need to create a Flexible or Annual subscription with Active-Active enabled.
+Overall, the process is similar to creating a traditional subscription. However, there are some differences; you need to:
+Define the regions for each database instance Define unique CIDR addresses for each instance Define throughput (read and write operations) for each region Active-Active databases consist of multiple copies (also called instances) deployed to different regions throughout the world.</description></item><item><title>View or change a Fixed subscription</title><link>/rc/subscriptions/view-fixed-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/subscriptions/view-fixed-subscription/</guid><description>To view the details of a Fixed subscription:
+Sign in to the admin console.
+If you have more than one subscription, select the target subscription from the subscription list.
+Your subscription details appear, along with a summary of your database details.
+From here, you can:
+Select the Change Plan button to update the subscription plan tier, high availability settings, or payment method.
+Select the New Database button to create a new database for your subscription.</description></item><item><title>View Flexible subscription details</title><link>/rc/subscriptions/view-flexible-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/subscriptions/view-flexible-subscription/</guid><description>To view the details of a Flexible subscription:
+Sign in to the admin console.
+If you have more than one subscription, select the target subscription from the subscription list.
+Your subscription details appear, along with a summary of your database details.
+From here, you can:
+Select the New database button to add a database to your subscription.
+View the Status icon to learn the status of your subscription. Active subscriptions display a green circle with a check mark.</description></item><item><title>Delete a subscription</title><link>/rc/subscriptions/delete-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rc/subscriptions/delete-subscription/</guid><description>To delete a subscription:
+Delete all databases from the subscription.
+The number of databases for the subscription is shown in the subscription list. You can not delete a subscription until there are zero databases in the subscription.
+View the subscription details.
+If you have more than one subscription, select the target subscription from the subscription list.
+Select the Overview tab.
+Locate and then select the Cancel subscription button near the bottom, right corner of the Overview details.</description></item></channel></rss>

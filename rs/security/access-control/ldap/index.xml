@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LDAP authentication on Redis Documentation Center</title><link>/rs/security/access-control/ldap/</link><description>Recent content in LDAP authentication on Redis Documentation Center</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/rs/security/access-control/ldap/index.xml" rel="self" type="application/rss+xml"/><item><title>Enable role-based LDAP</title><link>/rs/security/access-control/ldap/enable-role-based-ldap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/ldap/enable-role-based-ldap/</guid><description>Redis Enterprise Software uses a role-based mechanism to enable LDAP authentication and authorization.
+When a user attempts to access Redis Enterprise resources using LDAP credentials, the credentials are passed to the LDAP server in a bind request. If the request succeeds, the user’s groups are searched for a group that authorizes access to the original resource.
+Role-based LDAP lets you authorize admin console admins (previously known as external users) as well as database users.</description></item><item><title>Map LDAP groups to roles</title><link>/rs/security/access-control/ldap/map-ldap-groups-to-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/ldap/map-ldap-groups-to-roles/</guid><description>Redis Enterprise Software uses a role-based mechanism to enable LDAP authentication and authorization.
+Once LDAP is enabled, you need to map LDAP groups to Redis Enterprise access control roles.
+Map LDAP groups to roles To map LDAP groups to access control roles:
+From the admin console menu, select Access control &amp;gt; LDAP mappings.
+If you see an &amp;ldquo;LDAP configuration is disabled&amp;rdquo; message, go to Settings &amp;gt; LDAP to enable role-based LDAP.</description></item><item><title>Update database ACLs</title><link>/rs/security/access-control/ldap/update-database-acls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/ldap/update-database-acls/</guid><description>To grant LDAP users access to a database, assign the mapped access role to the access control list (ACL) for the database.
+From the admin console menu, select Databases and then select the database from the list.
+Select the Configuration tab to display the database details.
+Select the Edit button.
+Locate the Access Control List setting and select its Add button.
+Select the appropriate roles and then save your changes.</description></item><item><title>Migrate to role-based LDAP</title><link>/rs/security/access-control/ldap/migrate-to-role-based-ldap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/ldap/migrate-to-role-based-ldap/</guid><description>Redis Enterprise Software supports LDAP through a role-based mechanism, first introduced in v6.0.20.
+Earlier versions of Redis Enterprise Software supported a cluster-based mechanism; however, that mechanism was removed in v6.2.12.
+If you&amp;rsquo;re using the cluster-based mechanism to enable LDAP authentication, you need to migrate to the role-based mechanism before upgrading to Redis Enterprise Software v6.2.12 or later.
+Migration checklist This checklist covers the basic process:
+Identify accounts per app on the customer end.</description></item><item><title>Cluster-based LDAP authentication</title><link>/rs/security/access-control/ldap/cluster-based-ldap-authentication/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/rs/security/access-control/ldap/cluster-based-ldap-authentication/</guid><description>&lt;div class="panel panel-primary panel-warning">&lt;i class="icon-Warning">&lt;/i>
+&lt;div class="panel-content">&lt;span class="panel-heading">Warning - &lt;/span>
+&lt;div class="panel-body">&lt;p>As of v6.2.12, the features described in this article are &lt;a href="../../../../glossary/#obsolete">obsolete&lt;/a> and have been removed from Redis Enterprise Software.&lt;br/>&lt;br/>&lt;/p>
+&lt;p>&lt;a href="../../../../rs/release-notes/rs-6-0-20-april-2021/">Version 6.0.20&lt;/a> introduced a &lt;a href="../../../../rs/security/access-control/ldap/">role-based LDAP integration&lt;/a> that replaced the cluster-based integration described here.&lt;br/>&lt;br/>&lt;/p>
+&lt;p>At the time, the earlier integration remained in order to provide a transition period for migration. That period has now passed and the cluster-based integration has been removed.&lt;br/>&lt;br/>&lt;/p>
+&lt;p>This article has been archived and will no longer be maintained.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>Redis Enterprise Software supports Lightweight Directory Access Protocol (LDAP).&lt;/p></description></item></channel></rss>
